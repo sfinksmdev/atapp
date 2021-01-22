@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automata Theory App - Formal Languages App</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="automata theory app, automata theory android, formal languages app, formal languages android, theory of computation app, theory of computation android, regular languages, context free languages, pumping lemma, myhill nerode, cyk algorithm, decidable, decidability, recognizable, recognisable, turing machine, turing decidable, turing recognizable, words, regular expression, context free grammar, grammar rules, infinite language, finite language, automaton, finite automaton, deterministic automaton, non deterministic automaton, nondeterministic, pushdown automata, church thesis, undecidable, nonrecognizable, post correspondence problem, pcp, cfg, dfa, nfa, pda, not regular language, nonregular language, non regular language, not context free">
+  <meta name="description" content="Automata Theory App for Android, automata theory, formal languages, theory of computation app">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="img/atalogo.png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-toggleable-xl navbar-dark navbar-fixed-top">
+    <a class="navbar-brand" href="index.html"> <img id="imgtopid" src="img/atalogo.png" width="40" alt="atalogo"> &nbsp; Automata Theory App </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarContent1" aria-controls="navbarContent1"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarContent1">
+        <div>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Download
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="#">Available on Google Play</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="privacypolicy.html">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+  </nav>
+
+  <h1 id="idH1">Automata Theory App</h1>
+
+  <div id="featureid">
+    <img class="center" src="img/feature.png" alt="atafeatureimage">
+  </div>
+  <div class="content">
+    <div class="h5">
+        <b>Automata Theory App</b> provides access to a brief summary of subjects from automata theory and formal languages. Main definitions, facts, examples and exercises with solutions are provided.
+        Automata Theory App can be used as a study guide and resource for quick consultation on your device.<br><br>
+        Detailed solutions with explanations to selected exercises are available on the app,
+        some of them as a free sample and some others with a cost. In order to access paid solutions, the user
+        needs to buy Automata Theory App Coins for Knowledge (ATACK).<br><hr> <b>Disclaimer</b><br>
+        The use of this app does not encourage cheating or pretends to take responsibility of students from solving their
+        assignments, tasks, exams, or similar responsibilities that are proper of a student. Our main purpose is to help
+        students in acquiring knowledge by providing a quick access to the contents of the subjects in this app and
+        to provide detailed solutions to common problems that are accessible in the app as an in-app product. The user is the
+        only responsible person for any misuse of the app.<br><hr>
+        <a href="#contact">Contact us</a> if you would like us to add the solution to a specific problem or exercise so you can use your coins buying it, we
+        will update the app in a couple of days so it includes your requested solution.
+    </div>
+    <div class="cLine">
+      <ul class="cRow">
+        <li class="cellN1">
+          <div class="cellN11">
+            <h3>Get the free version</h3>
+          </div>
+          <div class="cellN12">
+            <a target="_blank" rel="noopener noreferrer" href=''><img alt='Get it on Google Play' width=300 src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrapper">
+  <div class="scrolls">
+  <div class="imageDiv">
+      <img id="s1" src="img/s1.png" width=250>
+      <img id="s2" src="img/s2.png" width=250>
+      <img id="s3" src="img/s3.png" width=250>
+      <img id="s4" src="img/s4.png" width=250>
+      <img id="s5" src="img/s5.png" width=250>
+      <img id="s6" src="img/s6.png" width=250>
+      <img id="s7" src="img/s7.png" width=250>
+      <img id="s8" src="img/s8.png" width=250>
+      <img id="s9" src="img/s9.png" width=250>
+      <img id="s10" src="img/s10.png" width=250>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <!--<span class="close">&times;</span>-->
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="ms">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+  <hr>
+
+  <div class="content">
+  <b>Content available in the app</b> <br><br>
+  <ul>
+    <li>Words and Languages</li>
+    <li>Regular Languages
+      <ul>
+        <li>Deterministic Finite Automata (DFA)</li>
+        <li>Diagram of a DFA</li>
+        <li>Language of a DFA</li>
+        <li>Nondeterministic Finite Automata (NFA)</li>
+        <li>Language of an NFA</li>
+        <li>Regular Expressions (RE)</li>
+        <li>Language of a RE</li>
+        <li>Regular Languages</li>
+        <li>Pumping Lemma</li>
+        <li>Myhill-Nerode Theorem</li>
+      </ul>
+    </li>
+    <li>Context-Free Languages
+      <ul>
+        <li>Context-Free Grammars (CFG)</li>
+        <li>Language of a CFG</li>
+        <li>Pushdown Automata (PDA)</li>
+        <li>Language of a PDA</li>
+        <li>PDE Example</li>
+        <li>Context-Free Languages (CFL)</li>
+        <li>Pumping Lemma</li>
+        <li>Chomsky Normal Form (CNF)</li>
+        <li>CYK Algorithm</li>
+      </ul>
+    </li>
+    <li>Turing Machines
+      <ul>
+        <li>Turing Machines (TM)</li>
+        <li>Language of a TM</li>
+        <li>Example of a TM</li>
+        <li>Turing Recognizable Languages</li>
+        <li>Turing Decidable Languages</li>
+        <li>Church-Turing Thesis</li>
+        <li>The Halting Problem</li>
+        <li>Reductions</li>
+        <li>An Undecidable Problem</li>
+        <li>Rice's Theorem</li>
+        <li>Post's Correspondence Problem (PCP)</li>
+      </ul>
+    </li>
+    <li>Complexity
+      <ul>
+        <li>Big-o and Little-o Notation</li>
+        <li>Complexity Classes</li>
+      </ul>
+    </li>
+    <li>Exercises
+      <ul>
+        <li>Regular Languages (17 exercises on regular languages and 17 exercises on non regular languages)</li>
+        <li>Context-Free Languages (17 exercises on context-free languages and 10 exercises on non context-free languages)</li>
+        <li>Turing Machines (17 exercises on Turing machines and 17 exercises on recognizable/decidable languages)</li>
+      </ul>
+    </li>
+  </ul>
+  </div>
+
+  <footer class="page-footer" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-12">
+        <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+        <p>If you would like to obtain more information about our application, we invite you to read the information displayed in the application,
+        read the information of the application on Google Play, or contact us by email.</p>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <p>automatatheoryapp ( at ) gmail ( dot ) com</p>
+      </div>
+    </div>
+    <div class="footer-copyright text-center">© 2021 Copyright: Sfinks MDev</div>
+  </div>
+  </footer>
+
+  <script src="js/main.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
